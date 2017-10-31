@@ -8,7 +8,6 @@ function onKeyDownHandler(e) {
   } else {
     counter = 0;
   }
-  
 }
 
 function init() {

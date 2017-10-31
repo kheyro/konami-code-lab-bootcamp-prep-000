@@ -5,6 +5,10 @@ var counter = 0;
 function onKeyDownHandler(e) {
   if(parseInt(e.detail || e.which) === code[counter]) {
     counter++;
+    if(counter === code.length){
+      alert("Hurray!");
+      counter = 0;
+    }
   } else {
     counter = 0;
   }

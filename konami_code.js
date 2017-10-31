@@ -19,5 +19,5 @@ function onKeyDownHandler(e) {
 
 function init() {
   // Write your JavaScript code inside the init() function
-  document.addEventListener('keydown', onKeyDownHandler;
+  document.addEventListener('keydown', onKeyDownHandler);
 }

@@ -1,8 +1,14 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 var pressedKey = [];
+var counter = 0;
 
 function onKeyDownHandler(e) {
-  if(e.which)
+  if(parseInt(e.detail || e.which) === code[counter]) {
+    counter++;
+  } else {
+    counter = 0;
+  }
+  
 }
 
 function init() {
